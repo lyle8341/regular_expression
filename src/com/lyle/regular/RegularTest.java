@@ -10,7 +10,7 @@ public class RegularTest {
 		String target = "18512541254";
 		//正则规则
 		String pattern = "1[358][0-9]\\d{8}";
-			
+		
 		//create Pattern Object
 		Pattern p = Pattern.compile(pattern);
 		//create Matcher Object
